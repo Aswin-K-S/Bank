@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">My Bank</a>
+
+        <ul>
+            <li><a href="./index.html" >Home</a></li>
+            <li><a href="">Contacts</a></li>
+            <li><a href="./signup.html" class="active">Sign up</a></li>
+            <li><a href="./login.html">Sign in</a></li>
+
+        </ul>
+    </header>
+    <div class="row m-4 ">
+        <div class="col-6">
+            <img id="sgup" src="https://rurutek.com/jio/assets/img/login-animate.gif" style="height: 50vw;" alt="">
+        </div>
+        <div class="col-6">
+            <div class="login  bg-danger-subtle rounded-4 shadow-lg">
+            <div id="container" class="container">
+                <div id="logo">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/017/745/091/small_2x/bank-roman-style-png.png" style="width: 100px;" alt="">
+                </div>
+                <h3 class="text-center fw-bold text-secondary">My Bank</h3>
+                <input type="text" class="form-control mt-5 rounded-5 shadow-lg" id="usrnm" placeholder="Username">
+                <input type="text" class="form-control mt-4 rounded-5 shadow-lg" id="acno" placeholder="Account Number">
+                <input type="Password" class="form-control mt-4 rounded-5 shadow-lg" id="pswd" placeholder="Password">
+                <div class="bttn text-center mt-4">
+              <button onclick="register()" class="btn btn-primary w-100 rounded-5 mb-5 shadow-lg ">Register</button>
+                <a href="./login.html">Sign in</a>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="./javascript/signup.js"></script>
+</html>
